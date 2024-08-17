@@ -5,9 +5,13 @@ Dataset & Jupyter Notebook Setup: I meticulously sourced and preprocessed the mo
 
 Data Preprocessing: This crucial phase involved thorough cleaning and organization of the movie dataset. I handled missing values, encoded categorical variables, and prepared the data for subsequent analysis, ensuring its accuracy and reliability.
 
-Vectorization: Employing techniques like TF-IDF or CountVectorizer, I transformed textual movie data into numerical representations suitable for machine learning algorithms. This step was vital for converting raw text data into a format understandable by algorithms.
+Vectorization (CountVectorizer):
+Employing the CountVectorizer technique, I transformed textual movie data into numerical representations suitable for machine learning algorithms. This step was vital for converting raw text data into a format understandable by algorithms, specifically enabling the application of similarity measures like cosine similarity.
 
-Main Function: I developed the core functionality of the recommendation system, implementing algorithms such as collaborative filtering or content-based filtering. These algorithms enabled the system to generate personalized movie recommendations based on user preferences and historical data.
+Cosine Similarity Calculation:
+I utilized cosine similarity to measure the similarity between movies based on their vectorized features. This metric was crucial in comparing movies and identifying those most similar to the user's preferences.
+
+Main Function: I developed the core functionality of the recommendation system, implementing algorithms such as  content-based filtering. These algorithms enabled the system to generate personalized movie recommendations based on user preferences and historical data.
 
 Frontend/Streamlit: To enhance accessibility and user-friendliness, I designed a frontend interface using Streamlit. This interface allowed users to interact with the system seamlessly, providing inputs such as movie preferences and receiving personalized recommendations in return. Additionally, I incorporated features to display movie posters and titles along with the recommendations, enriching the user experience.
 
